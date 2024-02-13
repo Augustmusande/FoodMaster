@@ -1,0 +1,61 @@
+body{
+   
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(170, 168, 168);
+}
+
+
+.containeur{
+    max-width: 1500px;
+    margin-top: 50px ;
+    padding:20px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 10px ;
+    position: relative;
+    
+}
+
+.dates{
+    margin-bottom:20px;  
+    }
+.dates li{
+    background: rgb(12, 32, 37);
+    padding: 10px;
+    margin: 30px;
+    border-radius: 5px;
+    display: block;
+    max-width: 75px;
+    text-align: center;
+    cursor: pointer;
+    color: #c9c5c5;
+
+
+}
+
+.bouton_ajout{
+    
+    /*position:absolute;
+    bottom:20px;
+    right: 20px;*/
+    float: right;
+    margin-top: 5px;
+    background-color: #0776c0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.bouton_ajout:hover{
+    background-color:  #2579b1;
+    transition: 1000ms;
+    color: rgb(20, 15, 15);
+     zoom: 1; 
+   
+}
+

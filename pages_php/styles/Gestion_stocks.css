@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #ebe1e1;
+    background-size: cover;
+    background-position: center ;    
+}
+
+.containeur_stock{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    display: flex;
+}
+
+.sidebar{
+    width: 20%;
+    padding: 20px;
+    background-color: #a3a0a0;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    
+    
+}
+.sidebar button{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #0c3264;
+    border: none;
+    color:#fff ;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+    
+}
+.bouton_enregistrer{
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    padding: 10px 0px;
+   
+    cursor: pointer;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;    
+    text-decoration: none;
+    background-color: #474747;
+    
+}
+.bouton_enregistrer:hover{
+    background: #fff;
+    color: rgb(12, 12, 12);
+}
+.sidebar button:hover{
+    background: #fff;
+    color: rgb(12, 12, 12);
+}
+
+.containeur_table{
+    flex-grow: 1;
+    padding: 20px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 1px solid #ddd;
+    padding:10px;
+    text-align: center;
+}
+
+th{
+    background-color: #0073e6;
+    color: #fff;
+}

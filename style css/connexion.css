@@ -1,0 +1,72 @@
+
+body{
+    font-family: arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("/projet_tutore/photo/verre ble.png");
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.conteneur_log{
+    max-width: 1000px;    
+   
+    padding: 70px;
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    background-color: rgba(59, 94, 117, 0.8);
+    box-shadow: 1 0 15px rgba(0, 0, 0, 0.2);  
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+ }
+ 
+
+.conteneur_log h2{
+    margin-bottom: 20px;
+    color: #fafafa;
+  
+}
+.form_group{
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+   
+.form_group label{
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color:#fff;
+}     
+
+
+.form_group input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #94aab8;
+}
+
+.bouton_login{
+    background-color: #0776c0;
+    color: #fafafa;
+    border: none;
+    padding: 10px 20px ;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+   
+  
+}
+.bouton_login:hover{
+    background-color:  #2579b1;
+}

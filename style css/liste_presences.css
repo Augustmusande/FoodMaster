@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+    
+}
+body {
+    
+    font-family: 'Arial, sans-serif';
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    background-color: #f2f2f2;   
+    
+  }
+  
+.containeur_presence{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    text-align: center;
+  
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a2642;
+    padding: 20px;
+    color: #fff;  
+   
+}
+.header_charger{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a2642;
+    padding: 20px;
+    color: #fff;
+}
+
+
+ .header h2{
+    margin: 0;
+}
+.header .date{
+    margin: 0;
+}
+.header_charger .bouton_charger{
+    background-color: #0776c0;
+    color: #f3f3f3;
+    border: none;
+    padding: 10px 20px;
+    border-radius:5px ;
+    cursor: pointer;
+    text-decoration: none;
+ 
+}
+.bouton_charger:hover{
+    background-color: rgb(0, 102, 255);
+    transition: 1000ms;
+    color:black;
+    box-shadow: rgb(61, 61, 61) 1px 2px 5px;
+    zoom: 1.2;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,td{
+    border:1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: #0073e6;
+    color: #fff;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+tr:hover{
+    background-color: #ddd;
+}
+
+.aff{    
+    background: rgb(62, 192, 73);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;  
+    max-width: 100px;
+    text-align: center;
+    cursor: pointer;
+    color: #fffbfb;
+    /* max-height: 15px; */
+    text-decoration: none;
+}
+.aff:hover{
+    background-color: rgb(25, 131, 34);
+    transition: 1000ms;
+    zoom: 1;
+}
+.sup{
+    background: rgb(245, 122, 122);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;    
+    max-width: 100px;
+    text-align: center;
+    cursor: pointer;
+    color: #fffbfb;
+    text-decoration: none;
+}
+.sup:hover{
+    background-color: rgb(224, 22, 22);
+    transition: 1000ms;
+    zoom: 1;
+}

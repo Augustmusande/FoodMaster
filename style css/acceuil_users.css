@@ -1,0 +1,81 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+.containeur {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.dates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.presence_container {
+    background-color: #f5f7fa;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.presence_container .fa-bars {
+    color: #718096;
+}
+
+.presence_container a {
+    text-decoration: none;
+    color: #4b5563;
+    font-weight: bold;
+}
+
+.presence_container a:hover {
+    color: #1c64f2;
+}
+div.tot{
+  
+        position:relative;
+        
+        background-color:#f0f2f5;
+        color: #181515;
+        font-size: 18px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: left;
+        border: 2px solid #2980b9;
+        transition:background-color 0.3s,color 0.3s ;
+        margin: 10px;
+}
+div.tot:hover{
+    background-color: #293035;
+    color: #fff;
+    cursor: pointer;
+}

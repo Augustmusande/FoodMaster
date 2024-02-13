@@ -1,0 +1,63 @@
+body{
+    font-family: Arial,  sans-serif;
+     margin: 20px;
+    padding: 0;
+    background-color: #acababd0;
+    /* background-image: url("/projet_tutore/photo/blue tres.jpg"); */
+}
+.form_conteneur{
+    max-width: 800px;
+   
+    padding:20px;
+    background-color: #fff;
+    border-radius: 10px;
+    /* box-shadow: 0 0 15px; */
+    text-align: center;
+    color: #fff;
+   
+}
+.form_conteneur h2{
+     display: flex;
+    justify-content: flex-start;
+    margin-left: 3%; 
+    color: black;
+}
+.liste_etudiant{
+    text-align: left;
+    flex-grow: 1;
+    padding: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    color: black;
+    
+}
+
+th,td{
+    border: 1px solid #ddd;
+    padding:10px;
+    text-align: center;
+}
+
+th{
+    background-color: #0073e6;
+    color: #fff;
+}
+.bouton_enregistrer{
+    background-color: #020202;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: -50px;
+    text-decoration: none;
+    margin-left: 3%;
+    
+    
+}
+.bouton_enregistrer:hover{
+    background-color:  #2579b1;
+    transition: 1000ms;
+}
